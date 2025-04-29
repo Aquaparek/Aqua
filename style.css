@@ -1,0 +1,116 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+  }
+  header {
+    background: #0056b3;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+  }
+  #home-hero {
+    background-image: url('https://images.unsplash.com/photo-1557682224-5b8590cd9ec5');
+  }
+  #products-hero {
+    background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657');
+  }
+  #about-hero {
+    background-image: url('https://images.unsplash.com/photo-1581276879432-15a43b33851a');
+  }
+  #contact-hero {
+    background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216');
+  }
+  #signin-hero {
+    background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657');
+  }
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+  .products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 250px;
+  }
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  form {
+    background: white;
+    padding: 2rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background: #0056b3;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #004494;
+  }
+  footer {
+    background: #ddd;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
